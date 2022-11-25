@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заголовок</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="body">
+
+  <nav class="navbar">
+    <ul>
+      <li>
+        <a href="#">На головну</a>
+      </li>
+      <li>
+        <a href="#">Про сайт</a>
+      </li>
+      <li>
+        <a href="#">Карта сайту</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="colon" style="display: flex;">
+    <div style="flex-grow: 1;">Ліва колонка</div>
+    <div style="flex-grow: 3; text-align: center;">Основний вміст</div>
+    <div style="flex-grow: 1; text-align: end;">Права колонка</div>
+  </div>
+  <div class="marker">
+    <h3>Що потрібно для викнання цієї роботи:</h3>
+    <ol>
+      <li class="one">Ознайомитися з тегами мови HTML.</li>
+      <li class="one">Додати контент до веб сайту</li>
+      <li class="one">Оформити звіт за результатами виконання роботи та зробити висновки</li>
+      <li class="one">Зберегти та відправити роботу</li>
+    </ol>
+  </div>
+  <h3>Таблиця</h3>
+  <table border>
+    <tbody>
+      <tr>
+        <th>Volkswagen AG</th>
+        <th>Daimler AG</th>
+        <th>BMW Group</th>
+      </tr>
+      <tr>
+        <td>Audi</td>
+        <td>Mercedes-Benz</td>
+        <td>BMW</td>
+      </tr>
+      <tr>
+        <td>Skoda</td>
+        <td>Mercedes-AMG</td>
+        <td>Mini</td>
+      </tr>
+      <tr>
+        <td>Lamborghini</td>
+        <td>Smart</td>
+        <td>Rolls-Royce</td>
+      </tr>
+    </tbody>
+  </table>
+  <button onclick="changeColor('blue');" class="btn">blue</button>
+  <button onclick="changeColor('red');" class="btn">red</button>
+  <h3>Зображення та відео</h3>
+  <img width="600px" height="300px" src="./img/01.jpg" alt="Зображення">
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/2JDob1LSz0A" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
